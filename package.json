@@ -1,0 +1,40 @@
+{
+  "name": "hubber-iot",
+  "version": "1.0.0",
+  "description": "IoT module for Hubber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hubber",
+    "iot"
+  ],
+  "author": "John Ferlito <johnf@inodes.org> (http://inodes.org)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echohub/hubber-iot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/echohub/hubber-iot/issues"
+  },
+  "homepage": "https://github.com/echohub/hubber-iot#readme",
+  "plugin": {
+    "provides": [
+      "iot"
+    ]
+  },
+  "dependencies": {
+    "aws-iot-device-sdk": "^1.0.14"
+  },
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-latest": "^6.22.0",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
