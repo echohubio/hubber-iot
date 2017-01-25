@@ -4,10 +4,12 @@
   "description": "IoT module for Hubber",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "keywords": [
     "hubber",
+    "echohub",
     "iot"
   ],
   "author": "John Ferlito <johnf@inodes.org> (http://inodes.org)",
@@ -27,8 +29,7 @@
   },
   "dependencies": {
     "aws-iot-device-sdk": "^1.0.14",
-    "debug": "^2.6.0",
-    "i": "^0.3.5"
+    "debug": "^2.6.0"
   },
   "devDependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
