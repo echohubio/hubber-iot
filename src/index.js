@@ -1,4 +1,3 @@
-// var request = require('request-promise-native');
 import iot from 'aws-iot-device-sdk';
 import Debug from 'debug';
 
