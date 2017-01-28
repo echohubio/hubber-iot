@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 (2017-01-29)
+
+* Move to GitHub organisation (@johnf)
+
 ## 1.0.1 (2017-01-28)
 
 * Distribute as ES5 (@johnf)
