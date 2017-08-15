@@ -50,5 +50,5 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "version": "vi CHANGELOG.md && git add CHANGELOG.md"
   },
-  "version": "2.0.3"
+  "version": "2.0.4"
 }
