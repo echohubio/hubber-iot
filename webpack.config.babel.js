@@ -6,21 +6,23 @@ module.exports = {
   target: 'node',
   output: {
     path: path.join(__dirname, 'dist'),
-    library: 'hubber-chromecast',
+    library: 'hubber-iot',
     libraryTarget: 'umd',
     filename: 'index.js',
   },
   externals: [nodeExternals()],
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
-        loader: 'babel',
+        enforce: 'pre',
+        loader: 'eslint-loader',
         exclude: /node_modules/,
       },
       {
-        test: /\.json$/,
-        loader: 'json-loader',
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
       },
     ],
   },
