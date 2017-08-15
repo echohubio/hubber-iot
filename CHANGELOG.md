@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.3 (2017-08-15)
+
+* Fix IOT API changes (@johnf)
+
 ## 2.0.2 (2017-08-15)
 
 * Fix IOT API changes (@johnf)
