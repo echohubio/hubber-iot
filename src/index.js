@@ -35,14 +35,13 @@ const setup = (options, imports, register) => {
   }
 
   thingName = options.clientId;
-  const host = options.iotHost;
 
   const iotOptions = {
     clientId: options.clientId,
     privateKey: new Buffer(options.x509.keyPair.PrivateKey),
     clientCert: new Buffer(options.x509.certificatePem),
     caCert: new Buffer(options.x509.rootCertificatePem),
-    host,
+    host: options.endpoint,
   };
 
   thingShadows = iot.thingShadow(iotOptions);
