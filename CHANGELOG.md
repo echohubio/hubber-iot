@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0 (2017-08-15)
+
+* New modules and webpack (@johnf)
+
 ## 1.1.0 (2017-02-12)
 
 * Move to electron-log (@johnf)
