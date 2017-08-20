@@ -59,14 +59,14 @@ const setup = (options, imports, register) => {
         return;
       }
 
+      log.debug('registration successful');
+
       register(null, {
         iot: {
           saveState,
           thingShadows,
         },
       });
-
-      log.debug('registration successful');
     });
 
     log.debug(`subscribe to hubber/${thingName}`);
