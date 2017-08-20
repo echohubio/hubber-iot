@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.5 (2017-08-20)
+
+* Setup order (@johnf)
+
 ## 2.0.4 (2017-08-15)
 
 * Fix build issues (@johnf)
