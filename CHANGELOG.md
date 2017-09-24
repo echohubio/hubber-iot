@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.1 (2017-09-24)
+
+* Fix dist files (@johnf)
+
 ## 3.0.0 (2017-09-24)
 
 * Hard code the CA cert (@johnf)
