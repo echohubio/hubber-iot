@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.0 (2017-09-24)
+
+* Hard code the CA cert (@johnf)
+
 ## 2.0.5 (2017-08-20)
 
 * Setup order (@johnf)
