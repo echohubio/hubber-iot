@@ -1,6 +1,8 @@
 import iot from 'aws-iot-device-sdk';
 import log from 'electron-log';
 
+import rootCertificatePem from './caCert';
+
 let thingShadows;
 let thingName;
 
@@ -40,7 +42,7 @@ const setup = (options, imports, register) => {
     clientId: options.clientId,
     privateKey: new Buffer(options.x509.keyPair.PrivateKey),
     clientCert: new Buffer(options.x509.certificatePem),
-    caCert: new Buffer(options.x509.rootCertificatePem),
+    caCert: new Buffer(rootCertificatePem),
     host: options.endpoint,
   };
 
