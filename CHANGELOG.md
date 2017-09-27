@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.6 (2017-09-27)
+
+* Fix dist files (@johnf)
+
 ## 3.0.5 (2017-09-27)
 
 * Fix dist files (@johnf)
