@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.4 (2017-09-27)
+
+* Fix certificate (@johnf)
+
 ## 3.0.3 (2017-09-27)
 
 * Fix dist files (@johnf)
