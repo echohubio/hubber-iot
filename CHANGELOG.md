@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.2 (2017-11-05)
+
+* Ignore response messages (@johnf)
+
 ## 4.0.1 (2017-11-05)
 
 * Don't register multiple times (@johnf)
