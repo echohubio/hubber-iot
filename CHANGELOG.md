@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.0 (2017-11-05)
+
+* Remove deviceShadow code (@johnf)
+
 ## 3.0.6 (2017-09-27)
 
 * Fix dist files (@johnf)
