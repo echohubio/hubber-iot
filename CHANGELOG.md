@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.1 (2017-11-05)
+
+* Don't register multiple times (@johnf)
+
 ## 4.0.0 (2017-11-05)
 
 * Remove deviceShadow code (@johnf)
