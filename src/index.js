@@ -27,7 +27,7 @@ const setup = (options, imports, register) => {
     log.debug('connect');
 
     log.debug(`subscribe to hubber/${thingName}`);
-    device.subscribe(`hubber/${thingName}/#`);
+    device.subscribe(`hubber/${thingName}/+`);
 
     if (!registered) {
       register(null, {
