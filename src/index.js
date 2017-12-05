@@ -9,6 +9,8 @@ const setup = (options, imports, register) => {
     return;
   }
 
+  let registered = false;
+
   const thingName = options.clientId;
 
   const iotOptions = {
@@ -24,14 +26,17 @@ const setup = (options, imports, register) => {
   device.on('connect', () => {
     log.debug('connect');
 
-    register(null, {
-      iot: {
-        device,
-      },
-    });
-
     log.debug(`subscribe to hubber/${thingName}`);
     device.subscribe(`hubber/${thingName}/#`);
+
+    if (!registered) {
+      register(null, {
+        iot: {
+          device,
+        },
+      });
+      registered = false;
+    }
   });
 
   // All below just for debugging

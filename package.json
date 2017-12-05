@@ -44,6 +44,7 @@
   },
   "scripts": {
     "build": "webpack -p",
+    "watch": "webpack --watch",
     "lint": "eslint .",
     "postversion": "git push",
     "prepublish": "yarn run build",
