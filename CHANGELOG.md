@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.2 (2017-11-06)
+
+* Update modules (@johnf)
+
 ## 4.0.2 (2017-11-05)
 
 * Ignore response messages (@johnf)
