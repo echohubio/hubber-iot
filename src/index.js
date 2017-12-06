@@ -15,9 +15,9 @@ const setup = (options, imports, register) => {
 
   const iotOptions = {
     clientId: options.clientId,
-    privateKey: new Buffer(options.x509.keyPair.PrivateKey),
-    clientCert: new Buffer(options.x509.certificatePem),
-    caCert: new Buffer(rootCertificatePem),
+    privateKey: Buffer.from(options.x509.keyPair.PrivateKey),
+    clientCert: Buffer.from(options.x509.certificatePem),
+    caCert: Buffer.from(rootCertificatePem),
     host: options.endpoint,
   };
 
