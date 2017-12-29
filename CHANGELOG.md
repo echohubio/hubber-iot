@@ -1,6 +1,10 @@
 # Change Log
 
-## 4.0.2 (2017-11-06)
+## 4.0.4 (2017-12-29)
+
+* Clean up (@johnf)
+
+## 4.0.3 (2017-11-06)
 
 * Update modules (@johnf)
 
