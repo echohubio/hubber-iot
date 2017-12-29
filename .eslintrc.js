@@ -1,10 +1,7 @@
 module.exports = {
-  extends: [
-    'eslint:recommended',
-    'plugin:eslint-comments/recommended',
-    'airbnb',
-  ],
+  extends: 'airbnb-base',
   rules: {
     'no-console': ['error', { allow: ['error'] }],
+    'max-len': ['error', 180],
   },
 };

@@ -1,4 +1,4 @@
-# Changelog
+# Change Log
 
 ## 4.0.2 (2017-11-06)
 
